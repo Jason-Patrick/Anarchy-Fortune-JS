@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-var files = fs.readdirSync('BLAG-fortune/people/');
+var files = fs.readdirSync('fortunes/people/');
 
 let chosenPerson = files[Math.floor(Math.random() * files.length)];
 
